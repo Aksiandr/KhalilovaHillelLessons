@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PhoneBill {
+public class GetPhoneBill {
 
     public static void main(String[] args) {
 
