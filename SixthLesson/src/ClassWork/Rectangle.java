@@ -1,3 +1,5 @@
+package ClassWork;
+
 public class Rectangle {
 
     double width = 4;

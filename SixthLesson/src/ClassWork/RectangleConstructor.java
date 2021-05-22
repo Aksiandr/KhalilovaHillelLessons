@@ -1,3 +1,5 @@
+package ClassWork;
+
 public class RectangleConstructor {
 
     private double weight;

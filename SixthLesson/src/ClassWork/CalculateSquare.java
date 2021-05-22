@@ -1,3 +1,5 @@
+package ClassWork;
+
 public class CalculateSquare {
 
     public static void main(String[] args) {
