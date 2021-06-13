@@ -17,7 +17,7 @@ public class ReturnTheNextWordInUpperCase {
         ////////////////////////////////////////////////////////////
         System.out.println(backAround("workZ"));
 
-        
+
     }
 
     public static String afterFeelInUpperCase(String inputString, String whenStartToGet) {
@@ -45,7 +45,7 @@ public class ReturnTheNextWordInUpperCase {
 //        public String withoutFirstAndLastChar(String inputString) {}
 //        "Hello" → "ell"
 //        "abc" → "b"
-        return (inputString.length() > 1)? (inputString.substring(1, inputString.length() - 1)) :
+        return (inputString.length() > 1) ? (inputString.substring(1, inputString.length() - 1)) :
                 "The length of string is not enough to return substring without first and last character";
     }
 
@@ -57,8 +57,8 @@ public class ReturnTheNextWordInUpperCase {
 //        "Chocolate" → "ChoChoCho"
 //        "abc" → "abс"
 
-    public static String repeatRepeatRepeat(String inputString ) {
-        return (inputString.length() <= 3)? inputString :
+    public static String repeatRepeatRepeat(String inputString) {
+        return (inputString.length() <= 3) ? inputString :
                 String.join(inputString.substring(0, 3), inputString.substring(0, 3), inputString.substring(0, 3));
     }
 
