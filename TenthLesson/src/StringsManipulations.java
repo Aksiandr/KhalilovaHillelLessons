@@ -3,10 +3,9 @@ import java.util.Locale;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-public class ReturnTheNextWordInUpperCase {
+public class StringsManipulations {
 
     public static void main(String[] args) {
-
 
         String pintNextWordInUpperViaRegex = afterFeelInUpperCaseViaRegularExpression("Get a modern feel " +
                 "with a smudge-resistant only for $2.50, you can finish now", "only");
